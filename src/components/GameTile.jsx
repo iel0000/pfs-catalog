@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { formatBytes, getTags } from '../utils/format.js';
+import { formatBytes, getTags, isUploading } from '../utils/format.js';
 
 export default function GameTile({ pkg, onClick }) {
   const initial = (pkg.title || '?').trim().charAt(0).toUpperCase();
@@ -7,9 +7,14 @@ export default function GameTile({ pkg, onClick }) {
   const showPoster = pkg.posterUrl && !imgFailed;
   const size = formatBytes(pkg.sizeBytes);
   const tags = getTags(pkg);
+  const uploading = isUploading(pkg);
 
   return (
-    <article className="tile" onClick={onClick}>
+    <article
+      className={`tile${uploading ? ' is-uploading' : ''}`}
+      onClick={uploading ? undefined : onClick}
+      aria-disabled={uploading || undefined}
+    >
       <div className="tile-cover">
         {showPoster ? (
           <img
@@ -21,6 +26,12 @@ export default function GameTile({ pkg, onClick }) {
           />
         ) : (
           <span className="cover-initial">{initial}</span>
+        )}
+        {uploading && (
+          <div className="uploading-overlay" role="status">
+            <span className="spinner" aria-hidden="true" />
+            <span>Uploading</span>
+          </div>
         )}
         {pkg.version && <span className="version-badge">v{pkg.version}</span>}
         {size && <span className="size-badge">{size}</span>}

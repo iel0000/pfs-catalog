@@ -1,5 +1,5 @@
 import Modal from './Modal.jsx';
-import { formatBytes, getTags } from '../utils/format.js';
+import { formatBytes, getTags, isUploadingLink } from '../utils/format.js';
 
 export default function GameDetailsModal({ pkg, onClose }) {
   const links = pkg.downloadLinks || [];
@@ -30,14 +30,26 @@ export default function GameDetailsModal({ pkg, onClose }) {
         <h3>Download Links</h3>
         {links.length ? (
           <ul className="link-list">
-            {links.map((link, i) => (
-              <li key={i}>
-                <span>{link.name || 'Download'}</span>
-                <a href={link.url} target="_blank" rel="noopener noreferrer">
-                  Download ↓
-                </a>
-              </li>
-            ))}
+            {links.map((link, i) => {
+              const uploading = isUploadingLink(link);
+              return (
+                <li key={i} className={uploading ? 'is-uploading' : undefined}>
+                  {uploading ? (
+                    <span className="link-uploading" role="status">
+                      Uploading
+                      <span className="spinner" aria-hidden="true" />
+                    </span>
+                  ) : (
+                    <>
+                      <span>{link.name || 'Download'}</span>
+                      <a href={link.url} target="_blank" rel="noopener noreferrer">
+                        Download ↓
+                      </a>
+                    </>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         ) : (
           <p className="muted">No download links available.</p>

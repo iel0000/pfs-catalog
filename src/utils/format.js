@@ -21,6 +21,19 @@ export function getTags(pkg) {
   return match ? splitTags(match[1]) : [];
 }
 
+// A single download link is "uploading" when its name starts with "Uploading"
+// (e.g. "Uploading...") or it has no usable URL yet.
+export function isUploadingLink(link) {
+  return /^uploading/i.test((link?.name || '').trim()) || !link?.url;
+}
+
+// A package is still uploading when it has download links but none are usable
+// (every link is in the uploading state), so it isn't downloadable yet.
+export function isUploading(pkg) {
+  const links = pkg?.downloadLinks || [];
+  return links.length > 0 && links.every(isUploadingLink);
+}
+
 function splitTags(str) {
   return str
     .split(',')

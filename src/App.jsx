@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { useLibrary } from './hooks/useLibrary.js';
+import { isUploading } from './utils/format.js';
 import Topbar from './components/Topbar.jsx';
 import GameTile from './components/GameTile.jsx';
 import GameDetailsModal from './components/GameDetailsModal.jsx';
@@ -69,7 +70,7 @@ export default function App() {
           <GameTile
             key={pkg.titleId}
             pkg={pkg}
-            onClick={() => setSelected(pkg)}
+            onClick={() => { if (!isUploading(pkg)) setSelected(pkg); }}
           />
         ))}
       </section>
