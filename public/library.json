@@ -2,6 +2,21 @@
   "name": "PFS Game Catalog",
   "packages": [
     {
+      "titleId": "PPSA10595",
+      "title": "TEKKEN 8",
+      "version": "2.006.001",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/TEKKEN_8.png",
+      "description": "Tags: PPSA10595, v02.006.001, USA, 4.xx Beyond",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Estong)",
+          "url": "https://vik1ngfile.site/f/g9SIvrSxYJ#PPSA10595.ffpfsc"
+        }
+      ],
+      "sizeBytes": 108941175767.04
+    },
+    {
       "titleId": "PPSA16384",
       "title": "Directive 8020 Deluxe Edition",
       "version": "1.000",
