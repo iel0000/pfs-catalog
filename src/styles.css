@@ -75,6 +75,41 @@ body {
 }
 .btn:hover { background: var(--border); }
 .btn.ghost { background: transparent; }
+.btn:disabled { opacity: 0.45; cursor: default; }
+.btn:disabled:hover { background: var(--surface-2); }
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+.page-numbers {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  margin: 0;
+}
+.btn.page-num {
+  min-width: 38px;
+  padding: 8px 10px;
+  text-align: center;
+}
+.btn.page-num.is-active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+.btn.page-num.is-active:hover { background: var(--primary-hover); }
+.page-gap {
+  color: var(--muted);
+  padding: 0 4px;
+  user-select: none;
+}
 
 main { padding: 32px; max-width: 1400px; margin: 0 auto; }
 

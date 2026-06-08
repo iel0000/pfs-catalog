@@ -4,6 +4,9 @@ import { isUploading } from './utils/format.js';
 import Topbar from './components/Topbar.jsx';
 import GameTile from './components/GameTile.jsx';
 import GameDetailsModal from './components/GameDetailsModal.jsx';
+import Pagination from './components/Pagination.jsx';
+
+const PAGE_SIZE = 12;
 
 export default function App() {
   const { data, status, error } = useLibrary();
@@ -11,6 +14,7 @@ export default function App() {
   const [search, setSearch] = useState('');
   const [viewMode, setViewMode] = useState('grid');
   const [selected, setSelected] = useState(null);
+  const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
     const term = search.toLowerCase().trim();
@@ -20,6 +24,15 @@ export default function App() {
       (p.titleId || '').toLowerCase().includes(term)
     );
   }, [data.packages, search]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const pageItems = useMemo(
+    () => filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE),
+    [filtered, currentPage]
+  );
+
+  useEffect(() => { setPage(1); }, [search]);
 
   useEffect(() => {
     const onKey = (e) => {
@@ -65,15 +78,22 @@ export default function App() {
       );
     }
     return (
-      <section className={viewMode === 'grid' ? 'grid' : 'list'}>
-        {filtered.map(pkg => (
-          <GameTile
-            key={pkg.titleId}
-            pkg={pkg}
-            onClick={() => { if (!isUploading(pkg)) setSelected(pkg); }}
-          />
-        ))}
-      </section>
+      <>
+        <section className={viewMode === 'grid' ? 'grid' : 'list'}>
+          {pageItems.map(pkg => (
+            <GameTile
+              key={pkg.titleId}
+              pkg={pkg}
+              onClick={() => { if (!isUploading(pkg)) setSelected(pkg); }}
+            />
+          ))}
+        </section>
+        <Pagination
+          page={currentPage}
+          totalPages={totalPages}
+          onChange={setPage}
+        />
+      </>
     );
   };
 
