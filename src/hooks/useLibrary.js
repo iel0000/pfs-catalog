@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export function useLibrary(url = '/library.json') {
+export function useLibrary(url = `${import.meta.env.BASE_URL}library.json`) {
   const [data, setData] = useState({ name: '', packages: [] });
   const [status, setStatus] = useState('loading');
   const [error, setError] = useState(null);
