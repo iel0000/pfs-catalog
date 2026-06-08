@@ -4,7 +4,7 @@
     {
       "titleId": "PPSA01474",
       "title": "Ratchet & Clank Rift Apart",
-      "version": "1.0",
+      "version": "1.005.003",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Ratchet_and_Clank_Rift_Apart.avif",
       "description": "Tags: PPSA01474, v01.005.003, EUR, 4.xx BackPork",
@@ -75,6 +75,22 @@
         }
       ],
       "sizeBytes": 95192547328
+    },
+
+    {
+      "titleId": "PPSA21564",
+      "title": "ASTRO BOT",
+      "version": "1.007",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/ASTRO_BOT.avif",
+      "description": "Tags: PPSA21564, v01.007, USA, 4.xx BackPork",
+      "downloadLinks": [
+        {
+          "name": "Uploading...",
+          "url": ""
+        }
+      ],
+      "sizeBytes": 48868556800
     }
   ]
 }
