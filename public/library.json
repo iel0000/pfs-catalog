@@ -106,6 +106,21 @@
         }
       ],
       "sizeBytes": 102965116928
+    },
+    {
+      "titleId": "PPSA05521",
+      "title": "PAW Patrol Grand Prix",
+      "version": "1.000",
+      "category": "game",
+      "posterUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202208/0308/6rarIXeFEnJ8BKeL5vLJmojC.jpg",
+      "description": "Tags: PPSA05521, v1.00, EUR, 5.xx Beyond",
+      "downloadLinks": [
+        {
+          "name": "Viki",
+          "url": "https://vikingfile.com/f/03K7riEzBl"
+        }
+      ],
+      "sizeBytes": 2163736576
     }
   ]
 }
