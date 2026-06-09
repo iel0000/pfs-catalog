@@ -2,6 +2,21 @@
   "name": "PFS Game Catalog",
   "packages": [    
     {
+      "titleId": "PPSA07274",
+      "title": "TALES OF ARISE",
+      "version": "1.04",
+      "category": "game",
+      "posterUrl": "https://m.media-amazon.com/images/I/61rjUCFLVaL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Tags: PPSA07274, v01.04, USA, 1.xx and beyond",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Jmc)",
+          "url": "https://vikingfile.com/f/G12tKqhqdM#TALES"
+        }
+      ],
+      "sizeBytes": 40265318400
+    },
+    {
       "titleId": "PPSA07570",
       "title": "Mortal Kombat 1",
       "version": "1.010.001",
