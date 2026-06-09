@@ -6,7 +6,7 @@ import GameTile from './components/GameTile.jsx';
 import GameDetailsModal from './components/GameDetailsModal.jsx';
 import Pagination from './components/Pagination.jsx';
 
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 10;
 
 export default function App() {
   const { data, status, error } = useLibrary();
