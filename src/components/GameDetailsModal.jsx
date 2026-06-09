@@ -27,6 +27,13 @@ export default function GameDetailsModal({ pkg, onClose }) {
           </>
         )}
 
+        {pkg.notes && (
+          <>
+            <h3>Notes</h3>
+            <p className="notes">{pkg.notes}</p>
+          </>
+        )}
+
         <h3>Download Links</h3>
         {links.length ? (
           <ul className="link-list">
