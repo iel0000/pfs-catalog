@@ -2,6 +2,21 @@
   "name": "PFS Game Catalog",
   "packages": [ 
     {
+      "titleId": "PPSA13579",
+      "title": "BLASPHEMOUS",
+      "version": "1.007.000",
+      "category": "game",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Blasphemous_%28video_game%29.jpg",
+      "description": "Tags: PPSA13579, v01.007.000, EUR, Backport 4.xx Beyond + DLC",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Jmc)",
+          "url": "https://vikingfile.com/f/NSdKVbYDjz#PPSA13579"
+        }
+      ],
+      "sizeBytes": 2673286737.92
+    },
+    {
       "titleId": "PPSA07257",
       "title": "Gotham Knights",
       "version": "5.000",
