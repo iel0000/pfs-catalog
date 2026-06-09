@@ -80,9 +80,9 @@ export default function App() {
     return (
       <>
         <section className={viewMode === 'grid' ? 'grid' : 'list'}>
-          {pageItems.map(pkg => (
+          {pageItems.map((pkg, i) => (
             <GameTile
-              key={pkg.titleId}
+              key={(currentPage - 1) * PAGE_SIZE + i}
               pkg={pkg}
               onClick={() => { if (!isUploading(pkg)) setSelected(pkg); }}
             />
