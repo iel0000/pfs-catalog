@@ -323,6 +323,26 @@ main { padding: 32px; max-width: 1400px; margin: 0 auto; }
 }
 .close:hover { background: var(--surface-2); color: var(--text); }
 
+.modal-content.small { max-width: 420px; }
+
+.thanks { text-align: center; padding: 8px 4px; }
+.thanks-icon { font-size: 2.6rem; line-height: 1; margin-bottom: 8px; }
+.thanks h2 { margin: 0 0 12px; }
+.thanks p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+.thanks p strong { color: var(--text); }
+.btn.primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  padding: 10px 28px;
+}
+.btn.primary:hover { background: var(--primary-hover); }
+
 .details h2 {
   margin: 0 0 12px;
   padding-right: 40px;

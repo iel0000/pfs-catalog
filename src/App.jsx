@@ -5,8 +5,10 @@ import Topbar from './components/Topbar.jsx';
 import GameTile from './components/GameTile.jsx';
 import GameDetailsModal from './components/GameDetailsModal.jsx';
 import Pagination from './components/Pagination.jsx';
+import ThanksModal from './components/ThanksModal.jsx';
 
 const PAGE_SIZE = 10;
+const THANKS_DISMISSED_KEY = 'pfs-thanks-dismissed';
 
 export default function App() {
   const { data, status, error } = useLibrary();
@@ -15,6 +17,22 @@ export default function App() {
   const [viewMode, setViewMode] = useState('grid');
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState(1);
+  const [showThanks, setShowThanks] = useState(() => {
+    try {
+      return localStorage.getItem(THANKS_DISMISSED_KEY) !== 'true';
+    } catch {
+      return true;
+    }
+  });
+
+  const dismissThanks = () => {
+    setShowThanks(false);
+    try {
+      localStorage.setItem(THANKS_DISMISSED_KEY, 'true');
+    } catch {
+      /* ignore storage errors (private mode, etc.) */
+    }
+  };
 
   const filtered = useMemo(() => {
     const term = search.toLowerCase().trim();
@@ -36,7 +54,10 @@ export default function App() {
 
   useEffect(() => {
     const onKey = (e) => {
-      if (e.key === 'Escape') setSelected(null);
+      if (e.key === 'Escape') {
+        setSelected(null);
+        dismissThanks();
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -110,6 +131,7 @@ export default function App() {
         canExport={status === 'ready'}
       />
       <main>{renderBody()}</main>
+      {showThanks && <ThanksModal onClose={dismissThanks} />}
       {selected && (
         <GameDetailsModal pkg={selected} onClose={() => setSelected(null)} />
       )}
