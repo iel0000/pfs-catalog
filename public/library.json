@@ -2,6 +2,26 @@
   "name": "PFS Game Catalog",
   "packages": [ 
     {
+      "titleId": "PPSA08560",
+      "title": "Split Fiction",
+      "version": "1.500",
+      "category": "game",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Banishers_Ghosts_of_New_Eden_cover_art.jpg/250px-Banishers_Ghosts_of_New_Eden_cover_art.jpg",
+      "description": "Tags: PPSA08560, v01.500, USA, 4.xx +",
+      "downloadLinks": [
+        {
+          "name": "Uploading...",
+          "url": ""
+        },
+        {
+          "name": "FULL GAME UNLOCK (DUPLEX – PKG)",
+          "url":"https://akirabox.to/0KezkDbW1GD1/file"
+        }
+      ],
+      "note":"Note: Install the title (.pfs) then FULL GAME UNLOCK by DUPLEX.",
+      "sizeBytes": 85621080064
+    },
+    {
       "titleId": "PPSA02100",
       "title": "Banishers Ghosts of New Eden",
       "version": "1.005.000",
