@@ -2,12 +2,57 @@
   "name": "PFS Game Catalog",
   "packages": [ 
     {
+      "titleId": "PPSA02100",
+      "title": "Banishers Ghosts of New Eden",
+      "version": "1.005.000",
+      "category": "game",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Banishers_Ghosts_of_New_Eden_cover_art.jpg/250px-Banishers_Ghosts_of_New_Eden_cover_art.jpg",
+      "description": "Tags: PPSA02100, v01.005.000, EUR, 4.xx +",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Jason)",
+          "url": "https://vik1ngfile.site/f/iRVrH1mpY3#PPSA10053%20Banishers%20Ghosts%20of%20New%20Eden%20(01.005.000).ffpfsc"
+        }
+      ],
+      "sizeBytes": 8505325772.8
+    },
+    {
+      "titleId": "PPSA02100",
+      "title": "Stray",
+      "version": "1.005.000",
+      "category": "game",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Stray_cover_art.jpg/250px-Stray_cover_art.jpg",
+      "description": "Tags: PPSA02100, v01.005.000, USA, 4.xx +",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Jason)",
+          "url": "https://vikingfile.com/f/69ol5PZtYf#PPSA02100"
+        }
+      ],
+      "sizeBytes": 8505325772.8
+    },
+    {
+      "titleId": "PPSA03500",
+      "title": "New Tales from the Borderlands®",
+      "version": "1.002",
+      "category": "game",
+      "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZDQqpfUzFJVcpO77oQBWOI9NqDGQB6Sotg&s",
+      "description": "Tags: PPSA03500, v01.002, EUR, 4.xx +",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Arjay)",
+          "url": "https://vikingfile.com/f/KuztQEUWmj#PPSA03500.ffpfsc"
+        }
+      ],
+      "sizeBytes": 30082876416.64
+    },
+    {
       "titleId": "PPSA13579",
       "title": "BLASPHEMOUS",
       "version": "1.007.000",
       "category": "game",
       "posterUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Blasphemous_%28video_game%29.jpg",
-      "description": "Tags: PPSA13579, v01.007.000, EUR, Backport 4.xx Beyond + DLC",
+      "description": "Tags: PPSA13579, v01.007.000, EUR, Backport 4.xx + + DLC",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Jmc)",
@@ -37,7 +82,7 @@
       "version": "1.04",
       "category": "game",
       "posterUrl": "https://m.media-amazon.com/images/I/61rjUCFLVaL._AC_UF1000,1000_QL80_.jpg",
-      "description": "Tags: PPSA07274, v01.04, USA, 1.xx and beyond",
+      "description": "Tags: PPSA07274, v01.04, USA, 1.xx +",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Jmc)",
@@ -52,7 +97,7 @@
       "version": "1.010.001",
       "category": "game",
       "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Mortal_Kombat_1_key_art.jpeg",
-      "description": "Tags: PPSA07570, v01.010.001, USA, 4.xx Beyond, Standard + BackPork Ver, APR",
+      "description": "Tags: PPSA07570, v01.010.001, USA, 4.xx +, Standard + BackPork Ver, APR",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Ultimate Jailbreak Pinas Sensei)",
@@ -71,7 +116,7 @@
       "version": "1.00",
       "category": "game",
       "posterUrl": "https://m.media-amazon.com/images/I/818u21+h7xL.jpg",
-      "description": "Tags: PPSA0724, v01.00, USA, 4.xx Beyond",
+      "description": "Tags: PPSA0724, v01.00, USA, 4.xx +",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Jmc)",
@@ -86,7 +131,7 @@
       "version": "1.06",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/REANIMAL.jpg",
-      "description": "Tags: PPSA23372, v01.06, EUR, 4.xx Beyond",
+      "description": "Tags: PPSA23372, v01.06, EUR, 4.xx +",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Jmc)",
@@ -116,7 +161,7 @@
       "version": "1.014.001",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Stellar_Blade.webp",
-      "description": "Tags: PPSA13195, v01.014.001, JPN, 9.xx and beyond, APR",
+      "description": "Tags: PPSA13195, v01.014.001, JPN, 9.xx +, APR",
       "downloadLinks": [
         {
           "name": "Viki",
@@ -131,7 +176,7 @@
       "version": "1.200",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Resident_Evil_Requiem_Deluxe_Edition.avif",
-      "description": "Tags: PPSA31246, v01.200, EUR, 4.xx Beyond",
+      "description": "Tags: PPSA31246, v01.200, EUR, 4.xx +",
       "downloadLinks": [
         {
           "name": "Viki",
@@ -146,7 +191,7 @@
       "version": "1.019.076",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Assassins_Creed_Shadows.avif",
-      "description": "Tags: PPSA10595, v01.019.076, USA to EUR Languages, 4.xx Beyond, APR",
+      "description": "Tags: PPSA10595, v01.019.076, USA to EUR Languages, 4.xx +, APR",
       "downloadLinks": [
         {
           "name": "Viki",
@@ -161,7 +206,7 @@
       "version": "2.006.001",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/TEKKEN_8.png",
-      "description": "Tags: PPSA10595, v02.006.001, USA, 4.xx Beyond",
+      "description": "Tags: PPSA10595, v02.006.001, USA, 4.xx +",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Estong)",
@@ -176,7 +221,7 @@
       "version": "1.000",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Directive_8020_Deluxe_Edition.avif",
-      "description": "Tags: PPSA16384, v1.000, EUR, 4.xx Beyond",
+      "description": "Tags: PPSA16384, v1.000, EUR, 4.xx +",
       "downloadLinks": [
         {
           "name": "Viki (Credits: Arjay)",
@@ -222,7 +267,7 @@
       "version": "1.012",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Assassins_Creed_Mirage.avif",
-      "description": "Tags: PPSA07230, v01.012, USA to EUR Languages, 9.xx and beyond\nSize: 114GB\nCredits: Files: High-Speed007",
+      "description": "Tags: PPSA07230, v01.012, USA to EUR Languages, 9.xx +",
       "downloadLinks": [
         {
           "name": "Viki",
@@ -252,13 +297,14 @@
       "version": "1.000.151",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Crimson_Desert_Deluxe_Edition.avif",
-      "description": "Tags: PPSA25286, v01.000.151, USA, 5.xx BackPork\nSize: 154GB\nCredits: Files: DUPLEX; Backport: BestPig\nHow to play: Press START/Options - Add-on right after starting a new game. You can equip them after the prologue.",
+      "description": "Tags: PPSA25286, v01.000.151, USA, 5.xx BackPork",
       "downloadLinks": [
         {
           "name": "Viki",
           "url": "https://vikingfile.com/f/Hw8lMd2uH8"
         }
       ],
+      "notes":"How to play: Press START/Options - Add-on right after starting a new game. You can equip them after the prologue.",
       "sizeBytes": 95192547328
     },
 
@@ -268,7 +314,7 @@
       "version": "1.007",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/ASTRO_BOT.avif",
-      "description": "Tags: PPSA21564, v01.007, USA, 9.xx Beyond",
+      "description": "Tags: PPSA21564, v01.007, USA, 9.xx +",
       "downloadLinks": [
         {
           "name": "Viki",
@@ -302,7 +348,7 @@
       "version": "1.000",
       "category": "game",
       "posterUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202208/0308/6rarIXeFEnJ8BKeL5vLJmojC.jpg",
-      "description": "Tags: PPSA05521, v1.00, EUR, 5.xx Beyond",
+      "description": "Tags: PPSA05521, v1.00, EUR, 5.xx +",
       "downloadLinks": [
         {
           "name": "Viki",
@@ -317,7 +363,7 @@
       "version": "1.036.178",
       "category": "game",
       "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Days_Gone_Remastered.png",
-      "description": "Tags: PPSA28180, v1.036.178, USA, 4.xx Beyond",
+      "description": "Tags: PPSA28180, v1.036.178, USA, 4.xx +",
       "downloadLinks": [
         {
           "name": "Viki",
