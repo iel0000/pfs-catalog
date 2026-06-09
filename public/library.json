@@ -2,6 +2,21 @@
   "name": "PFS Game Catalog",
   "packages": [
     {
+      "titleId": "PPSA02015",
+      "title": "Death Stranding 2 On The Beach",
+      "version": "1.013",
+      "category": "game",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmVkNDM3MzUtN2YyYS00MDg0LWIxN2EtMjQ2ZGQ1ZDhlZWY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "description": "Tags: PPSA02015, v01.013, USA, 12.xx to 11.xx",
+      "downloadLinks": [
+        {
+          "name": "Uploading...",
+          "url": ""
+        }
+      ],
+      "sizeBytes": 101437276160
+    },
+    {
       "titleId": "PPSA13195",
       "title": "Stellar Blade",
       "version": "1.014.001",
