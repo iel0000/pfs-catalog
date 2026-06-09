@@ -2,6 +2,21 @@
   "name": "PFS Game Catalog",
   "packages": [ 
     {
+      "titleId": "PPSA07257",
+      "title": "Gotham Knights",
+      "version": "5.000",
+      "category": "game",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Gotham_Knights_Cover.jpg/250px-Gotham_Knights_Cover.jpg",
+      "description": "Tags: PPSA07257, v05.000, EUR",
+      "downloadLinks": [
+        {
+          "name": "Viki",
+          "url": "https://vik1ngfile.site/f/10JWIQsSg8"
+        }
+      ],
+      "sizeBytes": 46933363671.04
+    },
+    {
       "titleId": "PPSA17905",
       "title": "Horizon Forbidden West",
       "version": "1.030",
