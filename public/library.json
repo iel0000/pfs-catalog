@@ -1,6 +1,21 @@
 {
   "name": "PFS Game Catalog",
-  "packages": [    
+  "packages": [ 
+    {
+      "titleId": "PPSA17905",
+      "title": "Horizon Forbidden West",
+      "version": "1.030",
+      "category": "game",
+      "posterUrl": "https://cdn.shopify.com/s/files/1/0516/3873/0931/files/horizon-forbidden-west-complete-edition-playstation-5-711719577973-51063373463898_600x600_crop_center.jpg?v=1696405433",
+      "description": "Tags: PPSA17905, v01.030, USA, 12.xx to 4.xx",
+      "downloadLinks": [
+        {
+          "name": "Uploading...",
+          "url": ""
+        }
+      ],
+      "sizeBytes": 128900464640
+    },
     {
       "titleId": "PPSA07274",
       "title": "TALES OF ARISE",
