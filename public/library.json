@@ -2,6 +2,55 @@
   "name": "PFS Game Catalog",
   "packages": [    
     {
+      "titleId": "PPSA07570",
+      "title": "Mortal Kombat 1",
+      "version": "1.010.001",
+      "category": "game",
+      "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Mortal_Kombat_1_key_art.jpeg",
+      "description": "Tags: PPSA07570, v01.010.001, USA, Standard + BackPork Ver",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Ultimate Jailbreak Pinas Sensei)",
+          "url": "https://vik1ngfile.site/f/ICQOMGMFQp"
+        },
+        {
+          "name": "30 DLCs - Viki (Credits: Ultimate Jailbreak Pinas Sensei)",
+          "url": "https://vik1ngfile.site/f/XaBqV9OnoK"
+        }
+      ],
+      "sizeBytes": 174192523755.52
+    },
+    {
+      "titleId": "PPSA0724",
+      "title": "VALKYRIE ELYSIUM",
+      "version": "1.00",
+      "category": "game",
+      "posterUrl": "https://m.media-amazon.com/images/I/818u21+h7xL.jpg",
+      "description": "Tags: PPSA0724, v01.00, USA, 4.xx Beyond",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Jmc)",
+          "url": "https://vik1ngfile.site/f/iH2T0rDCbL#REANIMAL"
+        }
+      ],
+      "sizeBytes": 15783004812.8
+    },
+{
+      "titleId": "PPSA0724",
+      "title": "VALKYRIE ELYSIUM",
+      "version": "1.00",
+      "category": "game",
+      "posterUrl": "https://m.media-amazon.com/images/I/818u21+h7xL.jpg",
+      "description": "Tags: PPSA0724, v01.00, USA, 4.xx Beyond",
+      "downloadLinks": [
+        {
+          "name": "Viki (Credits: Jmc)",
+          "url": "https://vik1ngfile.site/f/iH2T0rDCbL#REANIMAL"
+        }
+      ],
+      "sizeBytes": 15783004812.8
+    },
+    {
       "titleId": "PPSA0724",
       "title": "VALKYRIE ELYSIUM",
       "version": "1.00",
